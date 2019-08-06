@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block body %}
+  {% if is_christmas %}
+    <h1>오늘은 크리스마스입니다.</h1>
+  {% else %}
+    <h1>오늘은 크리스마스가 아닙니다.</h1>
+  {% endif %}
+{% endblock %}
